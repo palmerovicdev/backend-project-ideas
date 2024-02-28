@@ -5,7 +5,7 @@ He creado este repo para proporcionar ideas de proyectos de backend para quien b
 - Cada idea tiene una `descripcion`, `modelos`, `modulos` y `funcionalidades`, de forma que sea facil entender de que va el proyecto y como desarrollarlo.
 - Puede ser que desees agregar funcionalidades al mismo.
 - Se debe tener en cuenta que solo es una base desde donde partir, no son descripciones ampliamente detalladas y puede faltar datos en ellas.
-- El repo lo ire actualizando mientras valla encontrando otras ideas y creando las descripciones.
+- El repo lo ire actualizando mientras vaya encontrando otras ideas y creando las descripciones.
 
 Si desea buscar sus propias ideas puede utilizar una ia (como ChatGpt) y proporcionarle el siguiente prompt:
 
@@ -21,9 +21,9 @@ La idea del proyecto debe estar basada en la siguiente premisa: [insertar la pre
 
 ## Tener en cuenta
 
-1. El prompt es solo una muestra, debe ser personalizado y mejorado si quiere tener una idea generada mas completa.
+1. El prompt es solo una muestra, debe ser personalizado y mejorado si quiere tener una idea generada más completa.
 2. Si desea solo generar una idea borre esta linea: `La idea del proyecto debe estar basada en la siguiente premisa: [insertar la premisa aquí]`
-3. En otro caso agregue una base desde donde generar una idea, ejm:
+3. En otro caso agregué una base desde donde generar una idea, ejm:
 
 ```
 "Proporcione una idea detallada y completamente desarrollada para un proyecto de backend del tipo API REST que pueda agregar a mi portafolio. La descripción debe incluir los siguientes elementos:
@@ -39,7 +39,7 @@ Start with basic CRUD for movies and add features.
 "
 ```
 
-## Prompt para generar ideas relacionadas a microservicios
+## Prompt para generar ideas relacionadas con micro-servicios
 
 ```
 "Proporciona una idea detallada y completamente desarrollada para un proyecto de backend del tipo API REST que pueda agregar a mi portafolio. Este proyecto debe estar diseñado con microservicios, lo que significa que cada funcionalidad clave del proyecto debe ser un servicio independiente que se comunica con otros servicios a través de protocolos HTTP/REST.
@@ -67,11 +67,11 @@ La idea del proyecto debe estar basada en la siguiente premisa: [insertar la pre
 4. [Comprar libros en línea](#comprar-libros-en-línea)
 5. [Gestion de eventos](#gestion-de-eventos)
 6. [Gestion de clases](#gestion-de-clases)
-7. [Cursos en linea](#cursos-en-linea) ++
-8. [Plataforma de educacion en linea avanzada](#plataforma-de-educacion-en-linea-avanzada) +++
+7. [Cursos en línea](#cursos-en-línea) ++
+8. [Plataforma de educacion en línea avanzada](#plataforma-de-educacion-en-línea-avanzada) +++
 9. [Plataforma de bienestar integral](#plataforma-de-bienestar-integral) +++
 
-# Indice Microservicios
+# Índice Micro-servicios
 
 1. [Comercio Electronico](#comercio-electronico)
 2. [Gestion de bibliotecas](#gestion-de-bibliotecas)
@@ -397,7 +397,7 @@ El proyecto proporcionará las siguientes funcionalidades clave:
 - Creación, actualización y eliminación de exámenes.
 - Visualización de calificaciones de exámenes.
 
-## Cursos en linea
+## Cursos en línea
 
 - [ ] Spring
 - [ ] ASP.NET Core
@@ -427,7 +427,7 @@ El proyecto consistirá en una API REST para una plataforma de aprendizaje en l�
 
 3. **Lección**: Representa una lección dentro de un curso.
    - id (Long): Identificador único de la lección.
-   - titulo (String): Título de la lección.
+   - título (String): Título de la lección.
    - contenido (String): Contenido de la lección.
    - curso (Curso): Curso al que pertenece la lección (relación muchos a uno).
 
@@ -457,7 +457,7 @@ El proyecto consistirá en una API REST para una plataforma de aprendizaje en l�
 
 8. **Tema**: Representa un tema de discusión dentro de un foro.
    - id (Long): Identificador único del tema.
-   - titulo (String): Título del tema.
+   - título (String): Título del tema.
    - contenido (String): Contenido del tema.
    - autor (Usuario): Usuario que creó el tema (relación muchos a uno).
    - foro (Foro): Foro al que pertenece el tema (relación muchos a uno).
@@ -479,7 +479,7 @@ El proyecto consistirá en una API REST para una plataforma de aprendizaje en l�
 7. **Gestión de foros y temas**: Crear, actualizar, eliminar y listar foros y temas de discusión asociados a un curso.
 Aquí tienes los datos solicitados:
 
-## Plataforma de educacion en linea avanzada
+## Plataforma de educacion en línea avanzada
 
 - [ ] Spring
 - [ ] ASP.NET Core
@@ -516,7 +516,7 @@ El propósito del proyecto es crear una plataforma de educación en línea avanz
 
 - Lección:
   - id (Long): Identificador único de la lección.
-  - titulo (String): Título de la lección.
+  - título (String): Título de la lección.
   - contenido (String): Contenido de la lección.
   - curso (Curso): Curso al que pertenece la lección.
 
@@ -655,7 +655,7 @@ El propósito del proyecto es crear una plataforma en línea que brinde servicio
 
 - Recomendacion:
   - id (Long): Identificador único de la recomendación.
-  - titulo (String): Título de la recomendación.
+  - título (String): Título de la recomendación.
   - contenido (String): Contenido de la recomendación.
   - usuario (Usuario): Usuario al que se dirige la recomendación.
 
@@ -735,7 +735,7 @@ Las funcionalidades clave que proporcionará el proyecto son:
 - Creación y gestión de pedidos.
 Cada funcionalidad será un microservicio que se comunica con otros microservicios a través de una API REST.
 
-### Arquitectura de microservicios
+### Arquitectura de micro-servicios
 
 La arquitectura de microservicios para el proyecto se basará en una arquitectura de microservicios basada en eventos. Cada microservicio publicará eventos cuando ocurran cambios en su estado, y otros microservicios se suscribirán a estos eventos para responder a ellos. Esto permitirá a los microservicios comunicarse entre sí de manera desacoplada.
 
@@ -788,7 +788,7 @@ Las funcionalidades clave que proporcionará el proyecto son:
 - Creación y gestión de préstamos.
 - Cada funcionalidad será un microservicio que se comunica con otros microservicios a través de una API REST.
 
-### Arquitectura de microservicios
+### Arquitectura de micro-servicios
 
 La arquitectura de microservicios para el proyecto se basará en una arquitectura de microservicios basada en eventos. Cada microservicio publicará eventos cuando ocurran cambios en su estado, y otros microservicios se suscribirán a estos eventos para responder a ellos. Esto permitirá a los microservicios comunicarse entre sí de manera desacoplada.
 
@@ -921,7 +921,7 @@ Las funcionalidades clave que proporcionará el proyecto incluyen:
 - Gestionar los seguros de los coches.
 Cada una de estas funcionalidades será un microservicio que se comunica con otros microservicios a través de una API REST.
 
-### 5. Arquitectura de microservicios
+### 5. Arquitectura de micro-servicios
 
 La arquitectura de microservicios para el proyecto se verá así:
 
@@ -941,7 +941,7 @@ Microservicio de gestión de usuarios
 
 ```
 
-Microservicio de gestión de seguros
+Micro-servicio de gestión de seguros
 Cada microservicio se comunica con otros microservicios a través de una API REST. Los microservicios también se comunican con la base de datos para la persistencia de datos. La gestión de la persistencia de datos se puede manejar a través de un microservicio de base de datos separado o utilizando una base de datos distribuida 4.
 
 ### 6. Tecnologías a utilizar
