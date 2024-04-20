@@ -1,4 +1,4 @@
-# Ideas-de-proyectos-backend
+# Ideas de proyectos backend
 
 He creado este repo para proporcionar ideas de proyectos de backend para quien busque aprender o practicar y no sepa por donde buscar.
 
